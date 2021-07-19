@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- || meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- || title tag & tab icon -->
+    <title>Helping Hands Foundation</title>
+    <link rel="icon" type="image/png" href="./img/helplogo.jpg" />
+
+    <!-- || Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!-- || AOS Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- || Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/banner.css" />
+    <link rel="stylesheet" href="./css/about.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+</head>
+
+<body onscroll="checkWidthDoAnime()">
+    <!-- || Navbar Section Start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" data-aos="fade-right">
+                <img src="./img/helplogo.jpg" alt="Donate Today" />
+                <span>Helping Hands Foundation</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-4" data-aos="fade-left">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#donate">Donate</a>
+                    </li>
+                    <!--<li class="nav-item">
+                        <a class="nav-link" href="#analytics">About Us</a>
+                    </li>-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faqs">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactus" tabindex="-1">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- || Navbar Section End -->
+
+
+    <!-- || Banner & Payment Section Start -->
+    <main id="donate">
+        <div class="banner_box">
+            <img src="./img/banner/main2.jpg" alt="Banner Image" />
+            <div class="overlay">
+                <div data-aos="fade-up">
+                    <h5 class="banner_heading">A shared commitment to relieve suffering and improve the lives of children.</h5>
+                    <p class="banner_text">“Not all of us can do great things. But we can do small things with great love.”
+                        <br />
+                        <span class="banner_text_author">- Mother Teresa</span>
+                    </p>
+                    <!-- <button id="rzp-button1">Pay</button> -->
+                    <form>
+                        <script src="https://checkout.razorpay.com/v1/payment-button.js"
+                             data-payment_button_id="pl_HagxRDu2gvw7Mc" id="razorpay_donate_button" async> </script>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- || Banner & Payment Section End -->
+
+    <!-- || abouts Start -->
+    <section id="about">
+        <div class="container pb-4">
+            <h2 class="section_heading" data-aos="fade-up">
+                <span>About Us</span>
+                <span></span>
+            </h2>
+
+            <div class="container about_box">
+                <div class="about_item" id="item1" data-aos="fade-right">
+                    <div class="about_img_box">
+                        <img src="./img/icon/logo1.png" alt="Trustable about" />
+                    </div>
+                    <div class="about_content">
+                        <p>We arrange a platform to donate for causes like education, health, and livelihoods of children.</p>
+                    </div>
+                </div>
+                <div class="about_item" id="item2" data-aos="fade-up">
+                    <div class="about_img_box">
+                        <img src="./img/icon/logo2.png" alt="Transparency about" />
+                    </div>
+                    <div class="about_content">
+                        <p>We provide detailed feedbacks on the utilisation of your contributions and campaigns.</p>
+                    </div>
+                </div>
+                <div class="about_item" id="item3" data-aos="fade-left">
+                    <div class="about_img_box">
+                        <img src="./img/icon/logo3.png" alt="Experience about" />
+                    </div>
+                    <div class="about_content">
+                        <p>CSR and employee giving through trusted NGOs. We partner with 100+ NGOs across the country.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- || abouts End -->
+
+
+    <!-- || Social Banner Start -->
+    <section>
+        <div class="mt-5 banner_box" data-aos="fade-up">
+            <img src="./img/banner/socialwork.jpg" alt="Social Work" />
+            <div class="overlay">
+                <p class="banner_text" data-aos="fade-up-left" style="font-size: 30px;">
+                   <br><br><br><br><br><br><br><br>Your little act of kindness can bring smiles to millions.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- || Social Banner End -->
+
+
+    <!-- || FAQs Section Start -->
+    <section id="faqs">
+        <div class="container">
+            <h2 class="section_heading pb-4" data-aos="fade-up">
+                <span>Frequently Asked Questions</span>
+                <span></span>
+            </h2>
+
+            <div class="row">
+                <div class="col-lg-8 col-md-10 offset-lg-2 offset-md-1 col-12" id="faq_box">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item" data-aos="fade-up-right">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    #1 What is the belief behind our foundation?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Our vision is of a creative India. It's mission is "to spark curiosity, nurture creativity, and instill confidence" in economically disadvantaged children and government school teachers by bringing imaginative and innovative hands-on science education, project-based and peer-to-peer learning to schools, towns and villages across India.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item" data-aos="fade-up-left">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    #2 What is the scenario in India presently?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    India has about 11 million children living on the streets and 14 million children working as labours. Only 60% of children have access to education despite having a national policy on compulsory elementary education. The time to take collective as well as individual responsibility to remedy the current situation is here. Right now!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item" data-aos="fade-up-right">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    #3 How can one associate with the foundation?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    In our journey so far, we have received immense support from numerous individuals, many private and public sector companies, development agencies, educational institutions, public figures and the mass media. One can associate with us in any of these above mentioned ways. Please visit the contact us or get involved section of our website for more information on the possible ways of being involved in our journey.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item" data-aos="fade-up-left">
+                            <h2 class="accordion-header" id="flush-headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                    aria-controls="flush-collapseFour">
+                                    #4 What are the ways of measuring impact of various programmes?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    We have a proper programme management system which tracks progress and does periodic analysis - both qualitative and quantitative Periodic external evaluations are also done to gauge the impact and progress of various programmes.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item" data-aos="fade-up-left">
+                            <h2 class="accordion-header" id="flush-headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                    aria-controls="flush-collapseFour">
+                                    #5 How does the foundation choose projects/NGOs to work with?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    We look for emerging and committed grassroots organizations for reaching out to underprivileged communities. We partner with people and organizations that want to make a difference but do not have adequate knowledge and capacity to raise resources or work in a professional manner.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- || FAQs Section End -->
+
+
+    <!-- || Contact Us Section Start -->
+    <section id="contactus">
+        <div class="container-fluid mt-4 mb-5">
+            <h2 class="section_heading" data-aos="fade-up">
+                <span><br>Contact Us</span>
+                <span></span>
+            </h2>
+
+            <div class="container-fluid pb-4">
+                <div class="row pt-3" id="contact_section">
+                    <div class="col-md-6 order-md-first order-last mt-4">
+                        <!-- Contact Form -->
+                        <div class="container-lg px-lg-5">
+                            <form class="contact_form" onsubmit="event.preventDefault(); contactUs();"
+                                autocomplete="off" method="GET">
+                                <div class="mb-4" data-aos="fade-up-right">
+                                    <label for="contactName" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="contactName" aria-describedby="nameHelp"
+                                        required />
+                                </div>
+                                <div class="mb-4" data-aos="fade-up-left">
+                                    <label for="contactEmail" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="contactEmail" required />
+                                </div>
+                                <div class="mb-4" data-aos="fade-up-right">
+                                    <label for="contactSubject" class="form-label">Subject</label>
+                                    <input type="text" class="form-control" id="contactSubject" required />
+                                </div>
+                                <div class="mb-4" data-aos="fade-up-left">
+                                    <label for="contactMessage" class="form-label">Message</label>
+                                    <textarea name="contactMessage" class="form-control" id="contactMessage" rows="3"
+                                        required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-secondary submit_button" data-aos="fade-up">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6 order-md-last order-first mt-4">
+                        <!-- Map -->
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d828.6937284491061!2d76.56669511504766!3d8.883892369328263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m5!1s0x3b05fc3ecc33f669%3A0x6d759c414bc0818d!2sThangassery%2C%20Kollam%2C%20Kerala!3m2!1d8.886070799999999!2d76.56905189999999!4m0!5e0!3m2!1sen!2sin!4v1626723515033!5m2!1sen!2sin" width="650" height="450" style="border:0;" allowfullscreen="" loading="lazy" data-aos="fade-up-left"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- || Contact Us Section End -->
+
+
+    <!-- || Footer Section Start -->
+    <footer class="px-md-5 px-4 pt-1">
+        <p class="pt-2">Created By <span>Anu Lekshmi J</span></p>
+    </footer>
+    <!-- || Footer Section End -->
+
+
+    <!-- || Inbuilt & Custom JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"
+        defer></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" defer></script>
+        
+    <!-- AOS Library -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- Sweetalert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <!-- Index -->
+    <script src="./js/index.js"></script>
+
+    <!-- Analytics Count -->
+    <script src="./js/analyticsCount.js" defer></script>
+
+    <!-- Razorpay Payment -->
+    <script src="https://checkout.razorpay.com/v1/checkout.js" defer></script>
+    <script src="./js/razorpay.js" defer></script>
+
+    <script>
+        AOS.init({
+            delay: 100,
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: true
+        });
+    </script>
+</body>
+
+</html>
