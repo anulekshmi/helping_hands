@@ -65,12 +65,6 @@
 #quote_text_mobile {display: block;}
 }
 
-@media screen and (max-width: 768px) {
-    #cmap {
-        width: 100%;
-    }
-}
-
 @media screen and (max-width: 992px) {
     .banner_box img {
         width: 100%;
