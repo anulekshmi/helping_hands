@@ -60,7 +60,7 @@
   display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
 #quote_text_desktop {display: none;}
 #quote_text_mobile {display: block;}
 }
