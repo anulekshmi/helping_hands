@@ -1,7 +1,7 @@
 # helping_hands
 This is a sample website created to demonstrate Payment Gateway Integration using Razorpay.
 
-See the website - https://ziaxytbns5bw5hda4xy9iq-on.drv.tw/www.helpinghands.com/
+See the website - https://ziaxytbns5bw5hda4xy9iq-on.drv.tw/www.helpinghandsfoundation.com/
 
 
 References - Web Integration - Razorpay Standard Checkout
