@@ -42,8 +42,8 @@
   height: 100%;
 }
 
-@media screen and (max-width: 732px) {
+@media screen and (max-width: 991px) {
   .contact_map {
-    display: none;
+    height: 400px;
   }
 }
